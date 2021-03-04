@@ -6,7 +6,8 @@
 //
 
 import Foundation
-struct Food: Codable {
+// Identifiable becuase we have mock data that involves with id
+struct Appetizer: Codable, Identifiable {
   let name: String
   let calories: Int
   let price: Double
@@ -18,11 +19,11 @@ struct Food: Codable {
 }
 
 struct FoodResponse: Codable {
-  let request: [Food]
+  let request: [Appetizer]
 }
 
 struct MockData {
-    static let sampleAppetizer = Food(name: "Bacon Sandwich", calories: 300, price: 2.00, id: 0001, carbs: 200, imageURL: "", protein: 99, description: "Description of my sandwichs")
+    static let sampleAppetizer = Appetizer(name: "Bacon Sandwich", calories: 300, price: 2.00, id: 0001, carbs: 200, imageURL: "", protein: 99, description: "Description of my sandwichs")
     
     static let appetizers = [sampleAppetizer,sampleAppetizer,sampleAppetizer,sampleAppetizer]
     
