@@ -20,6 +20,7 @@
 		8C905C4425F07C37009B7A39 /* APPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4325F07C37009B7A39 /* APPError.swift */; };
 		8C905C4725F0852B009B7A39 /* AppetizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4625F0852B009B7A39 /* AppetizerViewModel.swift */; };
 		8C905C4A25F08829009B7A39 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4925F08829009B7A39 /* Alert.swift */; };
+		8C905C4D25F08D94009B7A39 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4C25F08D94009B7A39 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8C905C4325F07C37009B7A39 /* APPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPError.swift; sourceTree = "<group>"; };
 		8C905C4625F0852B009B7A39 /* AppetizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerViewModel.swift; sourceTree = "<group>"; };
 		8C905C4925F08829009B7A39 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		8C905C4C25F08D94009B7A39 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				8C905C4325F07C37009B7A39 /* APPError.swift */,
 				8C905C4625F0852B009B7A39 /* AppetizerViewModel.swift */,
 				8C905C4925F08829009B7A39 /* Alert.swift */,
+				8C905C4C25F08D94009B7A39 /* LoadingView.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				8C170F3D25F04D8F008AE0CB /* OrderView.swift in Sources */,
 				8C905C4425F07C37009B7A39 /* APPError.swift in Sources */,
 				8C170F2A25F04BEF008AE0CB /* AppetizerTabView.swift in Sources */,
+				8C905C4D25F08D94009B7A39 /* LoadingView.swift in Sources */,
 				8C905C4125F07B53009B7A39 /* NetworkManager.swift in Sources */,
 				8C170F2825F04BEF008AE0CB /* AppetizerApp.swift in Sources */,
 				8C905C4725F0852B009B7A39 /* AppetizerViewModel.swift in Sources */,
