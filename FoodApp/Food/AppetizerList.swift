@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct AppetizerList: View {
+    
+    @StateObject var viewModel = AppetizerViewModel()
+    
     var body: some View {
         NavigationView{
             //MARK: List initialize array of appetizers to list our mock data
-            List(MockData.appetizers) {
+            List(viewModel.appetizers) {
                 apppetizer in
                 AppetizerListCell(apppetizer: apppetizer)
             }
             .navigationTitle("Appetizers")
+        }
+        //Similare view will appear
+        .onAppear {
+            viewModel.getAppetizers()
         }
     }
 }
