@@ -16,6 +16,8 @@
 		8C170F4025F04D9C008AE0CB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C170F3F25F04D9C008AE0CB /* AccountView.swift */; };
 		8C28EF9225F0710C0060E986 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28EF9125F0710C0060E986 /* Appetizer.swift */; };
 		8C905C3E25F0787F009B7A39 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C3D25F0787F009B7A39 /* AppetizerListCell.swift */; };
+		8C905C4125F07B53009B7A39 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4025F07B53009B7A39 /* NetworkManager.swift */; };
+		8C905C4425F07C37009B7A39 /* APPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C905C4325F07C37009B7A39 /* APPError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8C170F3F25F04D9C008AE0CB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		8C28EF9125F0710C0060E986 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		8C905C3D25F0787F009B7A39 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		8C905C4025F07B53009B7A39 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8C905C4325F07C37009B7A39 /* APPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				8C170F3F25F04D9C008AE0CB /* AccountView.swift */,
 				8C28EF9125F0710C0060E986 /* Appetizer.swift */,
 				8C905C3D25F0787F009B7A39 /* AppetizerListCell.swift */,
+				8C905C4025F07B53009B7A39 /* NetworkManager.swift */,
+				8C905C4325F07C37009B7A39 /* APPError.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 				8C170F3A25F04D7D008AE0CB /* AppetizerList.swift in Sources */,
 				8C905C3E25F0787F009B7A39 /* AppetizerListCell.swift in Sources */,
 				8C170F3D25F04D8F008AE0CB /* OrderView.swift in Sources */,
+				8C905C4425F07C37009B7A39 /* APPError.swift in Sources */,
 				8C170F2A25F04BEF008AE0CB /* AppetizerTabView.swift in Sources */,
+				8C905C4125F07B53009B7A39 /* NetworkManager.swift in Sources */,
 				8C170F2825F04BEF008AE0CB /* AppetizerApp.swift in Sources */,
 				8C170F4025F04D9C008AE0CB /* AccountView.swift in Sources */,
 				8C28EF9225F0710C0060E986 /* Appetizer.swift in Sources */,

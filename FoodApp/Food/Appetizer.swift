@@ -7,7 +7,7 @@
 
 import Foundation
 // Identifiable becuase we have mock data that involves with id
-struct Appetizer: Codable, Identifiable {
+struct Appetizer: Decodable, Identifiable {
   let name: String
   let calories: Int
   let price: Double
@@ -18,7 +18,7 @@ struct Appetizer: Codable, Identifiable {
   let description: String
 }
 
-struct FoodResponse: Codable {
+struct AppetizerResponse: Decodable {
   let request: [Appetizer]
 }
 
