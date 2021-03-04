@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//MARK: Here is the creation of tabbar controller equivalent.
 struct AppetizerTabView: View {
     var body: some View {
         TabView {
